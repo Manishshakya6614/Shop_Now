@@ -39,22 +39,24 @@ ShopNow is a robust and user-friendly shopping application built with Kotlin, ut
   - Payment integration with Razorpay.
 - **Order Confirmation**: Displays order confirmation with an order number.
 - **Order Details**: View order status, address, and product details.
+- **Dependency Injection**: Used Dagger Hilt for efficient dependency injection.
 - **Profile Management**: Update profile image, name, and manage addresses.
 - **Logout**: Securely log out of the app.
 
 ## Tech Stack
 
-- **Kotlin**
+- **Kotlin**: The main programming language used.
 - **Firebase**:
   - Firebase Authentication
   - Firestore
   - Firebase Storage
   - Cloud Firestore
-- **MVVM Architecture**
-- **ViewModel**
-- **Coroutines**
-- **Navigation Component**
-- **Razorpay for Payments**
+- **MVVM Architecture**: To separate concerns and organize code.
+- **ViewModel**: To manage UI-related data lifecycle consciously.
+- **Coroutines**: For asynchronous programming.
+- **Navigation Component**: For managing in-app navigation.
+- **Dagger Hilt**: For dependency injection.
+- **Razorpay**: For handling payments.
 
 ## Screenshots
 #### Login and Register Screen
@@ -169,10 +171,13 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## Acknowledgments
+## Acknowledgements
 
-- [Firebase](https://firebase.google.com/)
-- [Razorpay](https://razorpay.com/)
-- [Google](https://developer.android.com/)
+- **Firebase**: For providing the backend services.
+- **Razorpay**: For enabling secure payment processing.
+- **Dagger Hilt**: For simplifying dependency injection.
+- **Google**: For the Android Jetpack libraries.
+- **Open-source Community**: For various libraries and tools that made development easier.
+
 
 
