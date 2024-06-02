@@ -25,4 +25,13 @@ class LoginRegisterActivity : AppCompatActivity() {
         }
 
     }
+
+    override fun onStart() {
+        super.onStart()
+        val user = FirebaseAuth.getInstance().currentUser
+        if (user != null) {
+            startActivity(Intent(this, ShoppingActivity::class.java))
+            finish()
+        }
+    }
 }
